@@ -1,8 +1,13 @@
 {
   "name": "becave-theme",
-  "displayName": "becave-theme",
+  "displayName": "Becave Theme",
   "description": "Pink is pink 💁",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/becave/becave-theme"
+  },
+  "publisher": "beeinger",
   "engines": {
     "vscode": "^1.54.0"
   },
@@ -17,5 +22,6 @@
         "path": "./themes/Becave Theme-color-theme.json"
       }
     ]
-  }
+  },
+  "icon": "icon.png"
 }
