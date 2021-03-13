@@ -68,7 +68,7 @@
     "list.errorForeground": "#FF5C8F",
     "list.hoverForeground": "#CCBA8D",
     "list.highlightForeground": "#93a1a1",
-    "list.inactiveFocusBackground": "#B3A37B",
+    "list.inactiveFocusBackground": "#4D1C2B",
 
     // editorGroupHeader
     "editorGroupHeader.tabsBackground": "#242222",
@@ -76,16 +76,16 @@
     // editorWidget
     "editorWidget.border": "#555",
     "editorWidget.background": "#282b31",
-    "editorSuggestWidget.selectedBackground": "#242222",
 
     // editorBracketMatch
     "editorBracketMatch.background": "#242222",
     "editorBracketMatch.border": "#886b67",
+    "editorSuggestWidget.background": "#242222",
+    "editorSuggestWidget.selectedBackground": "#4D1C2B",
 
     // git
     "gitDecoration.ignoredResourceForeground": "#666060",
     "gitDecoration.modifiedResourceForeground": "#FAE48C"
-    // "gitDecoration.addedResourceForeground":
   },
   "tokenColors": [
     {
@@ -101,7 +101,8 @@
       "scope": [
         "variable",
         "string constant.other.placeholder",
-        "constant.other.color"
+        "constant.other.color",
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#F2A552"
@@ -217,7 +218,8 @@
       "name": "Block Level Variables' Object Properties",
       "scope": [
         "variable.other.object.property",
-        "meta.var.expr variable.other.property"
+        "meta.var.expr variable.other.property",
+        "meta.object-literal.key string.quoted.double"
       ],
       "settings": {
         "foreground": "#E6B25A"
